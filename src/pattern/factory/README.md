@@ -4,4 +4,4 @@
 즉 팩토리 메소드 패턴을 이용하면 클래스의 인스턴스를 만드는 일을 서브클래스에게 맡기는 것
 
 ###### _Class Diagram of Factory Pattern Example_
-![Alt text](./out/diagram.png)
+![Alt text](ex/diagram.png)
