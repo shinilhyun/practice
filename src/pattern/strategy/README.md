@@ -8,6 +8,7 @@
   * 전략이란
     * 어떤 목적을 달성하기 위해 일을 수행하는 방식, 비즈니스 규칙, 문제를 해결하는 알고리즘 등
 
+_Class Diagram of the Strategy Pattern Example_
 ![Alt text](./Package%20strategy.png)
 
 오리의 행위(or 전략)
