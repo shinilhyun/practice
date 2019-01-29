@@ -11,14 +11,10 @@
 _Class Diagram of the Strategy Pattern Example_
 ![Alt text](./Package%20strategy.png)
 
-오리의 행위(or 전략)
- * 비행
- * 울음소리
+오리의 행위(_비행,울음_)의 변경에 유용
  
- 의 변경에 유용
- 
- _RubberDuck create_
- ~~~ 
+###### _RubberDuck create example_
+ ~~~
   Duck rd = new RubberDuck();
   rd.setCry(new CryMute());      // 울음소리 변경가능
   rd.setFly(new FlyDisable());   // 비행타입 변경 가능
