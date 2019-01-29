@@ -16,3 +16,11 @@ _Class Diagram of the Strategy Pattern Example_
  * 울음소리
  
  의 변경에 유용
+ 
+ ~~~ 
+  //RubberDuck create
+  Duck rd = new RubberDuck();
+         rd.setCry(new CryMute());      // 울음소리 변경가능
+         rd.setFly(new FlyDisable());   // 비행타입 변경 가능
+         rd.display();
+ ~~~
