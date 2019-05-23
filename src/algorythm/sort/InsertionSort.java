@@ -3,7 +3,7 @@ package algorythm.sort;
 import java.util.Arrays;
 
 /**
- * 삽입 정렬 (Insertion sort) - O(n^2)
+ * 삽입 정렬 (Insertion sort) - O(n^2), Ω(n)
  *
  *  삽입정렬은 자료 배열의 모든 요소를 앞에서부터 차례대로
  *  이미 정렬된 배열 부분과 비교하여,
